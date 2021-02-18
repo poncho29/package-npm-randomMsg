@@ -1,0 +1,30 @@
+{
+  "name": "random-messages-sebasdev",
+  "version": "1.0.0",
+  "description": "I don´t know what to write for the first commit",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "package"
+  ],
+  "author": "Sebastian Meneses <meneses0828@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": "true",
+  "dependencies": {
+    "eslint": "^7.20.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "date-fns": "^2.17.0"
+  },
+  "optionalDependencies": {
+    "eslint": "^7.20.0"
+  }
+}
